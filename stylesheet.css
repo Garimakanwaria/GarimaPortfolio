@@ -1,19 +1,19 @@
 .education  {
     
     background-image: url("newframe.png");
-    background-size: cover;
+    /*background-size: cover; */
     padding-bottom: 40px;
     float: left;
     width: 100%;
-    height: 850px;
+    height: 600px;
     margin-bottom: 20px;
     
 
 }
 
 .skills  {
-    margin-top: 40px;
-    padding-top: 40px;
+    padding-top: 100px;
+    /*padding-top: 40px; */
     background-image: url("newframe.png");
     background-size: cover;
     margin-bottom: 20px;
@@ -84,6 +84,7 @@
 
 .content {
   padding: 50px 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -115,9 +116,54 @@ h1 {
 
 .e1 {
     float: right;
-    width: 45%;
-    height: 620px;
+    width: 30%;
+    height: 300px;
     padding-right: 50px;
+    padding-top: 100px;
+}
+
+.e3 {
+    float: right;
+    padding-right: 30px;
+    height: 300px;
+    width: 30%;
+}
+
+.e4 {
+    float: right;
+    padding-right: 30px;
+    padding-top: 400px;
+    height: 300px;
+    width: 30%;
+}
+
+.s1 {
+    float: right;
+    width: 30%;
+    height: 300px;
+    padding-right: 50px;
+}
+
+.eductaion li {
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.education p {
+    margin: 0em;
+}
+
+.education img {
+    size: 200px;
+}
+
+.welcome h1, p {
+    margin-left: 20px;
+}
+
+.project h1, p {
+    margin-left: 60px;
 }
 
 header li {
@@ -139,19 +185,20 @@ header{
     padding: 10px 40px;
 }
   
-.header-list li{
+.header-list li {
+    font-size: 30px;
     float: left;
     padding: 33px 20px;
+        
 }
 
 .header-list {
    padding-left:60px;
+   margin-left: 50px;
 }
 
   
-.projects h1 , p {
-    padding-left: 10px;
-}
+
 
 .btn {
     padding: 20px 44px;
@@ -160,6 +207,11 @@ header{
     opacity: 0.8;
     border-radius: 4px;
     text-align: center;
+    margin: 10px;
+}
+
+footer a {
+    font-size: 25px;
 }
 
 .btn:hover {
@@ -185,7 +237,7 @@ header{
 }
 
 footer a {
-    width: 25%;
+    width: 28%;
 }
 
 .btn {
